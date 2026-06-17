@@ -1,0 +1,32 @@
+================================================================================
+           YRBS 2007 BMI ANALYSIS REPORT WITH INTERACTION EFFECT (WLS)
+================================================================================
+1. Model Fit & Diagnostics:
+   - F-test p-value: 6.7221e-56 (Model is highly significant)
+   - R-squared: 0.0197 (Adjusted R-squared: 0.0195)
+
+2. Regression Equation with Interaction Term:
+   BMI = 17.8868 + (0.3181) * Age + (-2.6137) * Is_Male + (0.2078) * (Age * Is_Male)
+
+3. Detailed Coefficient & Interaction Interpretations:
+   - Base Female Growth Slope:
+     * Female Slope = 0.3181 kg/m² per year (p-value: 8.6790e-12).
+     * Interpretation: For female adolescents, each additional year of age is associated with an average increase of 0.3181 units in BMI.
+
+   - Male Growth Slope (The Interaction Effect):
+     * Male Slope = (0.3181 + 0.2078) = 0.5259 kg/m² per year.
+     * Interaction Coefficient (Age:Is_Male) = 0.2078 (p-value: 1.5426e-03).
+     * Statistical Verdict: STATISTICALLY SIGNIFICANT at the 0.05 level.
+     * Biological Interpretation: 
+       The age-by-sex interaction term has a coefficient of 0.2078. This indicates that the BMI growth 
+       slope for male adolescents is steeper than that of female adolescents by 0.2078 kg/m² per year. 
+       This suggests that during puberty, biological males experience a faster velocity in BMI growth compared to biological females.
+
+4. Executive Summary for Infographic / Video Presentation:
+   Our extended WLS regression model successfully identified a significant interaction effect between Age and Sex 
+   on adolescent BMI (N = 13020 cleaned records). 
+   While both genders show an upward BMI trend with age, biological males experience a significantly faster BMI 
+   increase (Slope: 0.5259) compared to females (Slope: 0.3181). This gap is visually distinct 
+   in our interaction plot (figures/bmi_interaction_plot.png), which displays the divergent confidence bands 
+   of the growth trajectories between boys and girls.
+================================================================================
