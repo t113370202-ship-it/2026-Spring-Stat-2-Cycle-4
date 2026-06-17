@@ -3,7 +3,7 @@ Name: [方立謙]
 Student ID: [113370202]
 
 ## Project Repository
-https://github.com/[您的儲存庫路徑]
+file:///C:/Users/asdfg/Downloads/Adolescent%20BMI%20Dynamics%20Age,%20Sex,%20&%20Growth%20Trajectories.pdf
 
 ## Presentation Video
 https://youtu.be/RStr9fVWjfc
