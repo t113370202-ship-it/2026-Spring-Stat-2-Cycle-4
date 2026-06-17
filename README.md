@@ -11,7 +11,7 @@ https://youtu.be/RStr9fVWjfc
 Predicting Adolescent BMI (YRBS 2007)
 A Weighted Multiple Regression and Interaction Analysis of US teenager growth trajectories using Python and the CDC YRBS 2007 National Sample.
 
- Project Key Highlights
+Project Key Highlights
 Core Question: Do age and biological sex significantly predict adolescent BMI, and do growth velocities differ between genders?
 
 Statistical Rigor: Applied Weighted Least Squares (WLS) to incorporate CDC sampling weights (weight), resolving complex survey design biases.
